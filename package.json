@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "build": "browserify script.js > bundle.js && live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/draro/background_generator/issues"
   },
-  "homepage": "https://github.com/draro/background_generator#readme"
+  "homepage": "https://github.com/draro/background_generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
